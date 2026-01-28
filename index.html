@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio website showcasing my skills, projects, and experience in web development and software engineering.">
+  <meta name="keywords" content="portfolio, web developer, software engineer, frontend, backend, full stack">
+  <meta name="author" content="Mayank Shrivastava">
+
+  <!-- Theme Color for Android Chrome -->
+  <meta name="theme-color" content="#6366f1">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Android Chrome Address Bar Color -->
+  <meta name="msapplication-navbutton-color" content="#6366f1">
+
+  <title>Mayank Shrivastava - Portfolio | Web Developer & Software Engineer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/code.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Portfolio</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="section hero" id="home">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="container hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-title gradient-text">Mayank Shrivastava</h1>
+      <p class="hero-subtitle" id="typedText">Full Stack Developer</p>
+      <p class="hero-description">
+        I build user-friendly web applications with clean, maintainable code and a focus on real-world problem solving.
+        Currently expanding my skills in full-stack web development.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Mehnat </span>
+          <span>→</span>
+        </a>
+        <a href="mailto:shrivastavamayank01922@gmail.com" class="btn btn-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            style="margin-right: 8px;">
+            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+          </svg>
+          <span>Send Email</span>
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="contactBtn">
+          <span>Samsung ka Number</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-content fade-in">
+        <div class="about-image-container">
+          <img src="assets/Mayank_Picture.jpg" alt="Mayank Shrivastava - Profile Picture" class="about-image">
+        </div>
+
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I am an aspiring backend-focused developer with a strong interest in building reliable and efficient
+            server-side applications. I enjoy turning ideas into working solutions by writing clean, structured, and
+            scalable code, while continuously improving my understanding of backend technologies.
+          </p>
+          <p>
+            My journey in software development began around six months ago. Since then, I have been actively learning
+            and working on backend concepts such as APIs, databases, and server-side logic through hands-on projects and
+            consistent practice. I focus on strengthening my fundamentals and applying them to real-world use cases.
+          </p>
+
+
+          <p>Outside of coding, I spend time exploring backend architectures, learning new technologies, and
+            understanding how scalable systems are designed. I also enjoy engaging with developer content and improving
+            my skills through documentation, tutorials, and community resources.</p>
+
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-number">6+</div>
+              <div class="highlight-label">Months Experience</div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-number">10+</div>
+              <div class="highlight-label">Projects Completed</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <h3><span class="skill-icon">💻</span> Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <h3><span class="skill-icon">⚙️</span> Backend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">REST APIs</span>
+
+          </div>
+        </div>
+
+        <div class="skill-category fade-in">
+          <h3><span class="skill-icon">🛠️</span> Tools & Others</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git & Github</span>
+            <span class="skill-tag">Basic Docker</span>
+            <span class="skill-tag">MongoDb Atlas</span>
+
+            <span class="skill-tag">Basic Figma</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">🎬</div>
+          <div class="project-content">
+            <h3 class="project-title">Video Streaming Platform</h3>
+            <p class="project-description">
+              A modern video streaming platform with user authentication, video upload/playback,
+              and real-time interactions. Built with Node.js, Express, and MongoDB.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="https://github.com/mayank-shriv">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">🎓</div>
+          <div class="project-content">
+            <h3 class="project-title">Student Management System</h3>
+            <p class="project-description">
+              Comprehensive system for managing students, faculty, courses, attendance, and
+              exams with intuitive UI and robust backend architecture.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">🎨</div>
+          <div class="project-content">
+            <h3 class="project-title">VS Code Themed Portfolio</h3>
+            <p class="project-description">
+              Interactive portfolio website with VS Code theme, featuring syntax-highlighted
+              code displays and modern animations for an immersive experience.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">📱</div>
+          <div class="project-content">
+            <h3 class="project-title">E-Commerce Platform</h3>
+            <p class="project-description">
+              Full-featured e-commerce solution with shopping cart, payment integration,
+              order tracking, and admin dashboard for inventory management.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Stripe</span>
+              <span class="tech-tag">Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">🤖</div>
+          <div class="project-content">
+            <h3 class="project-title">AI Chat Assistant</h3>
+            <p class="project-description">
+              Intelligent chatbot powered by natural language processing, providing
+              contextual responses and learning from user interactions.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">WebSocket</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card stagger-in">
+          <div class="project-image">📊</div>
+          <div class="project-content">
+            <h3 class="project-title">Data Visualization Dashboard</h3>
+            <p class="project-description">
+              Interactive dashboard for visualizing complex datasets with real-time updates,
+              charts, and customizable widgets for data analysis.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">D3.js</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">WebSocket</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>🔗</span>
+                <span>Live Demo</span>
+              </a>
+              <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                <span>💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-description">
+          I'm always open to new opportunities, collaborations, or just a friendly chat.
+          Feel free to reach out!
+        </p>
+
+        <div class="contact-methods fade-in">
+          <div class="contact-card">
+            <img src="assets/mail.png" alt="Email Icon" class="contact-icon-img">
+            <div class="contact-label">Email</div>
+            <a href="mailto:your.email@example.com" class="contact-value">shrivastavamayank01922@gmail.com</a>
+          </div>
+
+          <div class="contact-card">
+            <img src="assets/phoneIcon.png" alt="Phone Icon" class="contact-icon-img">
+            <div class="contact-label">Phone</div>
+            <a href="tel:+9335341603" class="contact-value">9335341603</a>
+          </div>
+        </div>
+
+        <div class="social-links fade-in">
+          <a href="https://github.com/mayank-shriv" class="social-link" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub Profile" title="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/mayank-shriv20/" class="social-link" target="_blank"
+            rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/mayank_shriv07/" class="social-link" target="_blank"
+            rel="noopener noreferrer" aria-label="Instagram Profile" title="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://codepen.io/yourusername" class="social-link" target="_blank" rel="noopener noreferrer"
+            aria-label="Leetcode Profile" title="Leetcode">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+              <line x1="12" y1="22" x2="12" y2="15.5"></line>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+              <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+              <line x1="12" y1="2" x2="12" y2="8.5"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Mayank Shrivastava. Built with Paseena and lots of Chai</p>
+    </div>
+  </footer>
+
+  <!-- Audio for Button Sound Effect -->
+  <audio id="samsungAudio" preload="auto">
+    <source src="assets/yehmerasamsoongkanumberhai.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
